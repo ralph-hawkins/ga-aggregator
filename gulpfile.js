@@ -21,6 +21,11 @@ gulp.task('css', function(){
   gulp.src('./css/*.css').pipe(connect.reload());
 });
 
+//js task
+gulp.task('js', function(){
+  gulp.src('./js/*.js').pipe(connect.reload());
+});
+
 // watch task
 // specify where certain files are
 // and the task to run when they change

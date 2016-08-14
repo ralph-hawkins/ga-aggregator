@@ -30,8 +30,6 @@ Author: Your Name
 /*******************************************/
 
 .site-container {
-	max-width: 960px;
-	margin: 0 auto;
 }
 
 .site-header {
@@ -70,9 +68,40 @@ Author: Your Name
 /* ADDITIONAL STYLES                   
 /*******************************************/
 
-body {
-  background-color: grey;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
+h2 {
+  font-family: 'Permanent Marker', cursive;
+  color: lime;
+  font-size: 50px;
+  line-height: -5;
+  transform: rotate(-20deg);
+  text-align: center;
+  text-transform: italic;
+  width: 50%;
+  margin: auto;
+}
 
+li {
+  list-style: none;
+  width: 50vw;
+  height: 45vh;
+  float: left;
+  background-size: cover;
+  padding: 10px;
+  text-align: centre;
+  font-size: 5vw;
+  color: white;
+  background-color: red;
+}
 
+h2:hover {
+  color: red;
+}
+
+li:hover {
+  background-color: blue;
+};
